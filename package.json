@@ -44,6 +44,8 @@
     "url": "https://github.com/GitbookIO/nuts.git"
   },
   "scripts": {
+    "setup-env-mac": "GITHUB_REPO=TheGreatCircle/kraken GITHUB_SECRET=d010867f335098b8b0c55071605d5a072b057645 GITHUB_TOKEN=47572febf5fff8eeb588daea876d3cbd92bbd588",
+    "dev-mac": "yarn setup-env-mac yarn start",
     "start": "node bin/web.js",
     "test": "mocha --reporter list"
   }
