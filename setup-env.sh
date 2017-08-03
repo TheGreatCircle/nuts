@@ -1,3 +1,2 @@
 export GITHUB_REPO="$1"
-export GITHUB_SECRET="d010867f335098b8b0c55071605d5a072b057645"
-export GITHUB_TOKEN="e174eb5178c9a206ca0cd5c6f5b62ac33fecf813"
+export GITHUB_TOKEN="enter your access token here"
