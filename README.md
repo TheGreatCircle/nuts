@@ -1,3 +1,16 @@
+# Fork
+
+This repository is a fork of the official Nuts repository. We adapted it to support .pkg release files on osx to suit our needs for an more advanced installer.
+
+## Setting up the environment
+
+In order to run the scripts `dev-pipeline` and `prod-pipeline`, you need to create a file `setup-env.sh` with the following content:
+
+```
+export GITHUB_REPO="$1"
+export GITHUB_TOKEN="insert the github token here"
+```
+
 # Nuts
 
 Nuts is a simple (and smart) application to serve desktop-application releases.
