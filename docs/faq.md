@@ -22,7 +22,7 @@ Nuts can detect the type of file from its filename, there is no strict policy on
 
 - Windows: `.exe`, `.nupkg` etc
 - Linux: `.deb`, `.tar.gz`, etc
-- OS X: `.dmg`, etc
+- OS X: `.pkg`, `.dmg`, etc
 
 By default releases are tagged as 32-bits (except for OSX), but 64-bits will also be detected from filenames.
 

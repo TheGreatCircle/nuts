@@ -21,7 +21,7 @@ Filetype and usage will be detected from the extension:
 | Platform | Extensions (sorted by priority) |
 | -------- | ---------- |
 | Windows | `.exe`, `.nupkg`, `.zip` |
-| OS X | `.dmg`, `.zip` |
+| OS X | `.pkg`, `.dmg`, `.zip` |
 | Linux | `.deb`, `.rpm`, `.zip` |
 
 
