@@ -27,6 +27,6 @@ build/Release
 node_modules
 
 .env
-./setup-env.sh
+setup-env.sh
 
 docs/_book/
