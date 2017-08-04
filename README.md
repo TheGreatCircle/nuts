@@ -11,6 +11,8 @@ export GITHUB_REPO="$1"
 export GITHUB_TOKEN="insert the github token here"
 ```
 
+**IMPORTANT:** Make sure to never push the `GITHUB_TOKEN` to this repository on Github (as long at it is public) because then Github will revoke the token for safety reasons.
+
 # Nuts
 
 Nuts is a simple (and smart) application to serve desktop-application releases.
